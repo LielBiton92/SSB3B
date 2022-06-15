@@ -15,7 +15,7 @@ namespace zich
 
         Matrix(int, int);
         Matrix();
-        Matrix(std::vector<double>, int row, int col);
+        Matrix(const std::vector<double>&matri, int row, int col);
         static void check_matrix_size(const Matrix &, const Matrix &);
         static void check_valid_mult(const Matrix &, const Matrix &);
         static void check_building_matrix(const std::vector<double> &, int, int);

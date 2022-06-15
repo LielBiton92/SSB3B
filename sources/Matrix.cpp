@@ -50,7 +50,7 @@ Matrix::Matrix(int row, int col)
     
 }
 
-Matrix::Matrix(const std::vector<double> matri, int row, int col)
+Matrix::Matrix(const std::vector<double> &matri, int row, int col)
 {
     check_building_matrix(matri, row, col);
     this->col = col;
